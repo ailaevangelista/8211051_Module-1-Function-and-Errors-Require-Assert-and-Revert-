@@ -1,7 +1,7 @@
-#### Module 1 Function and Errors Require Assert and Revert
+# Module 1 Function and Errors Require Assert and Revert
 The Aviary contract tracks the count of birds using a single state variable myBirdcount. The contract includes a function setmyBirdcount which allows external users to set the bird count, with specific conditions enforced by the require(), assert(), and revert() statements.
 
-#### Usage
+## Usage
 
 
 1. Clone this repository to your local machine: 
@@ -16,7 +16,7 @@ The Aviary contract tracks the count of birds using a single state variable myBi
 
 5. Interact with the deployed contract using the provided functions, such as setNumber().
 
-#### Code Explanation
+### Code Explanation
 
 1. Require
    This statement ensures that the input count is not zero. If _count is zero, the transaction is     reverted, and an error message "The bird count cannot be zero" is returned.
