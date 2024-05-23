@@ -4,7 +4,7 @@ The Aviary contract tracks the count of birds using a single state variable myBi
 ## Usage
 
 
-1. Clone this repository to your local machine: 
+1. Clone this repository to your local machine: https://github.com/ailaevangelista/8211051_Module-1-Function-and-Errors-Require-Assert-and-Revert-/tree/main
 
 2. Navigate to the project directory: cd solidity-assertions
 
@@ -21,7 +21,7 @@ The Aviary contract tracks the count of birds using a single state variable myBi
 1. Require
    This statement ensures that the input count is not zero. If _count is zero, the transaction is     reverted, and an error message "The bird count cannot be zero" is returned.
 
-2.Assert
+2. Assert
     This statement ensures that adding _count to the current myBirdcount does not cause an overflow, which would be a logical error in this context. If this condition fails, the transaction is reverted, and all gas is consumed.
 
 3. Revert
